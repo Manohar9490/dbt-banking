@@ -59,8 +59,7 @@
 ### 1️⃣ Prerequisites
 
 - [Docker & Docker Compose](https://docs.docker.com/compose/install/)
-- Python 3.10+
-- _(Recommended)_ [`uv`](https://github.com/astral-sh/uv) for fast dependency management
+- Python 3.10+: (Recommended)_ [`uv`](https://github.com/astral-sh/uv) for fast dependency management
 - A [Snowflake](https://www.snowflake.com/) account
 
 ---
@@ -68,8 +67,6 @@
 ### 2️⃣ Environment Setup
 
 Create a `.env` file in the root directory to store sensitive credentials.
-
-> ⚠️ **Important:** Ensure `.env` is listed in your `.gitignore` — never commit secrets to version control.
 
 ```env
 # Airflow UI
