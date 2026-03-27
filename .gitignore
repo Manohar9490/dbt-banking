@@ -8,13 +8,13 @@ docker/plugins/
 docker/postgres/
 
 # DBT cache
-banking_dbt/.dbt/
-banking_dbt/analyses/
-banking_dbt/logs/
-banking_dbt/macros/
-banking_dbt/seeds/
-banking_dbt/target/
-banking_dbt/tests/
+banking/.dbt/
+banking/analyses/
+banking/logs/
+banking/macros/
+banking/seeds/
+banking/target/
+banking/tests/
 
 .env
 __pycache__/
@@ -24,3 +24,9 @@ __pycache__/
 .DS_Store
 docker-compose.override.yml
 logs/
+**/profiles.yml
+**/.user.yml
+.venv/
+.python-version
+.DS_Store
+Thumbs.db
