@@ -1,0 +1,14 @@
+version: "1"
+context:
+  active-host: "nz996.us1.dbt.com"
+  active-project: "70471823562147"
+projects:
+  - project-name: "Untitled Project"
+    project-id: "70471823562147"
+    account-name: "MANOHAR's dbt Cloud Account"
+    account-id: "70471823541129"
+    account-host: "nz996.us1.dbt.com"
+    token-name: "cloud-cli-806c"
+    token-value: "dbtu_t13uFakILc_fIha4hA7TwVdcP_11i_LIDtiV7v1IYi_9NUGMdE"
+
+
